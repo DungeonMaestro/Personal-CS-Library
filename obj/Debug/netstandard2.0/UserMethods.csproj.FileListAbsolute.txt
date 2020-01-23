@@ -1,0 +1,4 @@
+C:\Users\RCHILDS\source\repos\UserMethods\obj\Debug\netstandard2.0\UserMethods.csprojAssemblyReference.cache
+C:\Users\RCHILDS\source\repos\UserMethods\obj\Debug\netstandard2.0\UserMethods.csproj.CoreCompileInputs.cache
+C:\Users\RCHILDS\source\repos\UserMethods\obj\Debug\netstandard2.0\UserMethods.AssemblyInfoInputs.cache
+C:\Users\RCHILDS\source\repos\UserMethods\obj\Debug\netstandard2.0\UserMethods.AssemblyInfo.cs
