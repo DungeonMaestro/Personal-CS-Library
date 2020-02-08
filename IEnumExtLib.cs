@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -33,10 +33,10 @@ namespace UserMethods
          /// <param name="Set">The string set to be converted</param>
          /// <param name="delimiter">The character to separate each element with</param>
          /// <returns>A string containing each element separated by the provided delimiter</returns>
-        public static string ToString<T>(this IEnumerable<T> Set, string delimiter = "\n")
+        public static string ToString<T>(this IEnumerable<T> set, string delimiter = "\n")
         {
             string result = "";
-            foreach (T s in Set)
+            foreach (T s in set)
             {
                 //if l is the default value for a T or l is of type string and empty
                 if (s == default || (typeof(T) == typeof(string) && s as string == "")) continue;

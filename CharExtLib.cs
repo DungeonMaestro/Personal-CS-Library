@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -20,14 +20,9 @@ namespace UserMethods
             return !(c < 'A' || (c > 'Z' && c < 'a') || c > 'z');
         }
 
-        public static string Merge(this IEnumerable<char> C)
+        public static string ToString(this IEnumerable<char> C)
         {
-            string result = "";
-            foreach (var c in C)
-            {
-                result += c;
-            }
-            return result;
+            return C.ToString('');
         }
     }
 }
